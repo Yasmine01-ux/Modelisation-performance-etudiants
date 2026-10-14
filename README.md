@@ -16,23 +16,39 @@ Projet de machine learning reproductible consacré à l’exploration de la perf
 | Classification | Forêt aléatoire (Random Forest) | La note finale est-elle supérieure ou égale au seuil de réussite de 10/20 ? |
 | Regroupement | StandardScaler + K-Means | Quels profils exploratoires apparaissent dans les données ? |
 
-## Résultats visuels
+# Résultats et démonstration
+## 1. Résultats visuels
 
 Les graphiques et les fichiers d’évaluation sont enregistrés dans `resultats/`.
 
 **Notes prédites et notes réelles**
 
-![Comparaison des notes prédites et réelles](prediction-performance-etudiants/resultats/graphiques/notes_predites_reelles.png)
+<p align="center">
+  <img src="prediction-performance-etudiants/resultats/graphiques/notes_predites_reelles.png" width="400" alt="Comparaison des notes prédites et réelles">
+</p>
 
 **Influence relative des variables dans la régression**
 
-![Influence des variables](prediction-performance-etudiants/resultats/graphiques/influence_variables.png)
+<p align="center">
+  <img src="prediction-performance-etudiants/resultats/graphiques/influence_variables.png" width="400" alt="Comparaison des notes prédites et réelles">
+</p>
 
 **Profils exploratoires des étudiants**
 
-![Profils des étudiants](prediction-performance-etudiants/resultats/graphiques/profils_etudiants.png)
+<p align="center">
+  <img src="prediction-performance-etudiants/resultats/graphiques/profils_etudiants.png" width="500" alt="Comparaison des notes prédites et réelles">
+</p>
 
-## Fonctionnalités
+## 2. Résultats dans la console Linux
+
+Exécution du programme dans le terminal Linux 
+``python execution.py``
+
+Sortie du programme :
+<p align="center">
+  <img src="prediction-performance-etudiants/resultats/reusltat_terminal.png" width="500" alt="Comparaison des notes prédites et réelles">
+</p>
+# Fonctionnalités
 
 - Génération reproductible de 500 observations synthétiques à l’aide d’une graine aléatoire fixe.
 - Prédiction d’une note numérique par régression et prédiction réussite/échec par classification.
