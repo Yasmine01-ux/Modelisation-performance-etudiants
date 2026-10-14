@@ -18,31 +18,19 @@ Projet de machine learning reproductible consacré à l’exploration de la perf
 
 ## Résultats visuels
 
-Les graphiques générés et les résultats d’évaluation sont disponibles dans le dossier `resultats/`.
+Les graphiques et les fichiers d’évaluation sont enregistrés dans `resultats/`.
 
-### 1. Notes prédites vs notes réelles
+**Notes prédites et notes réelles**
 
-<p align="center">
-  <img src="prediction-performance-etudiants/resultats/graphiques/notes_predites_reelles.png " alt="Comparaison des notes prédites et réelles" width="400">
-</p>
+![Comparaison des notes prédites et réelles](resultats/graphiques/notes_predites_reelles.png)
 
-### 2. Influence des variables
+**Influence relative des variables dans la régression**
 
-<p align="center">
-  <img src="prediction-performance-etudiants/resultats/graphiques/influence_variables.png " alt="Influence relative des variables dans la régression" width="400">
-</p>
+![Influence des variables](resultats/graphiques/influence_variables.png)
 
-### 3. Profils exploratoires des étudiants
+**Profils exploratoires des étudiants**
 
-<p align="center">
-  <img src="prediction-performance-etudiants/resultats/graphiques/profils_etudiants.png" alt="Profils exploratoires des étudiants" width="500">
-</p>
-
-### 3. résultat dans le terminal 
-
-<p align="center">
-  <img src="prediction-performance-etudiants/resultats/reusltat_terminal.png" alt="Profils exploratoires des étudiants" width="500">
-</p>
+![Profils des étudiants](resultats/graphiques/profils_etudiants.png)
 
 ## Fonctionnalités
 
