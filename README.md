@@ -22,15 +22,15 @@ Les graphiques et les fichiers d’évaluation sont enregistrés dans `resultats
 
 **Notes prédites et notes réelles**
 
-![Comparaison des notes prédites et réelles](resultats/graphiques/notes_predites_reelles.png)
+![Comparaison des notes prédites et réelles](prediction-performance-etudiants/resultats/graphiques/notes_predites_reelles.png)
 
 **Influence relative des variables dans la régression**
 
-![Influence des variables](resultats/graphiques/influence_variables.png)
+![Influence des variables](prediction-performance-etudiants/resultats/graphiques/influence_variables.png)
 
 **Profils exploratoires des étudiants**
 
-![Profils des étudiants](resultats/graphiques/profils_etudiants.png)
+![Profils des étudiants](prediction-performance-etudiants/resultats/graphiques/profils_etudiants.png)
 
 ## Fonctionnalités
 
